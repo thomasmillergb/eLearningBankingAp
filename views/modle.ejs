@@ -1,0 +1,27 @@
+<%- include header.ejs %>
+
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Page Heading
+        <small>Secondary Text</small>
+      </h1>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Projects Row -->
+  <div class="row">
+    <div class="col-1 portfolio-item">
+      <a href="<%=video%>">
+        <iframe width="560" height="315" src="<%=videosrc%>" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <div class="content"><%=content%></div>
+  </div>
+
+
+<%-include footer.ejs%>

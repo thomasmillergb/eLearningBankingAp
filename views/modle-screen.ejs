@@ -1,0 +1,26 @@
+<%- include header.ejs%>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Page Heading
+        <small>Secondary Text</small>
+      </h1>
+    </div>
+  </div>
+  <!-- /.row -->
+  <ul>
+    <% for(var i=0; i<vids.length; i++) { %>
+    <li>
+      <a href="<%=vids[i].uri%>">
+        <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+      </a>
+    </li>
+    <% } %>
+  </ul>
+  <!-- Projects Row -->
+
+  <hr>
+<%- include footer.ejs%>
