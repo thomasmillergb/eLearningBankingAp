@@ -6,7 +6,10 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script src="/javascripts/quiz.js"></script>
+<script src="/javascripts/help.js"></script>
 <script type='text/javascript'>
-  var rows =<%-JSON.stringify(quiz)%>;;
+  var rows =<%-JSON.stringify(quiz)%>;
     startQuiz(rows);
+  var content = <%-JSON.stringify(content)%>;
+    showContent(content);
 </script>
