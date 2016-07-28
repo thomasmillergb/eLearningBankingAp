@@ -48,16 +48,16 @@ function startQuiz(quiz) {
 			var correctAmount = 0;
 			_.forEach(obs._groups[0], function (o) {
 				v = o.value;
-				if(v == true){
+				if(v === 'true'){
 					correctAmount++;
 				}
 			});
 			var totalQuestions = quiz.length;
-			allCorrect = correctAmount.length === totalQuestions;
+			//allCorrect = correctAmount.length === totalQuestions;
 
 			var summary = d3.select('.summary');
 			summary.html('');
-			var verb = allCorrect ? 'RIGHT!!!' : 'incorrect.';
+			var verb = correctAmount === totalQuestions ? 'RIGHT!!!' : 'incorrect.';
 			summary.append('p').text('You got ' + correctAmount + ' out of ' + totalQuestions);
 			summary.append('p').text('You got it '+ verb);
 		});
