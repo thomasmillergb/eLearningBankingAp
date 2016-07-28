@@ -12,7 +12,7 @@ var resoureces = [
 	{uri: '/', name: 'index', extra: {title: 'Express'}},
 	{
 		uri: '/modles', name: 'modle-screen', extra: {title: 'Express'}, sub: [
-		{uri: '/vid1', name: 'modle', extra: {video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/AMjMFbhyhwY', content: contentResource.vid1}},
+		{uri: '/vid1', name: 'modle', extra: {quiz: {x:1}, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/CqD3hnjZBTM', content: contentResource.vid1}},
 		{uri: '/vid2', name: 'modle', extra: {video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/smHxeRdf7oI', content: contentResource.vid2}},
 		{uri: '/vid3', name: 'modle', extra: {video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/ftDQOV6K158"', content: contentResource.vid3}},
 		{uri: '/vid4', name: 'modle', extra: {video: 'www.youtube.com', videosrc: '', content: contentResource.vid4}},

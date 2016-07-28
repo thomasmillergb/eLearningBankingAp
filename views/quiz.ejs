@@ -1,0 +1,14 @@
+<h2>Quiz</h2>
+
+<!--<p><%=quiz%></p>-->
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="/javascripts/quiz.js"></script>
+<script type='text/javascript'>
+  var rows =<%-JSON.stringify(quiz)%>;;
+    startQuiz(rows);
+</script>
+
+
+<div class="quiz-container">
+</div>
