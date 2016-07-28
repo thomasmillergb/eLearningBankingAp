@@ -24,9 +24,9 @@ var resoureces = [
 	{uri: '/', name: 'index', extra: {title: 'Express'}},
 	{
 		uri: '/modles', name: 'modle-screen', extra: {title: 'Express'}, sub: [
-		{uri: '/vid1', name: 'modle', extra: {quiz: quiz.q1, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/CqD3hnjZBTM', content: contentResource.vid1}},
-		{uri: '/vid2', name: 'modle', extra: {quiz: quiz.q2, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/smHxeRdf7oI', content: contentResource.vid2}},
-		{uri: '/vid3', name: 'modle', extra: {quiz: quiz.q3, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/ftDQOV6K158"', content: contentResource.vid3}},
+		{uri: '/vid1', name: 'modle',  extra: {quiz: quiz.q1, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/CqD3hnjZBTM', content: contentResource.vid1, title: 'Easy'}},
+		{uri: '/vid2', name: 'modle',  extra: {quiz: quiz.q2, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/HjXSbn2Xvb4', content: contentResource.vid2, title: 'Intermediate'}},
+		{uri: '/vid3', name: 'modle',  extra: {quiz: quiz.q3, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/doUotBgjb84', content: contentResource.vid3, title: 'Advanced'}},
 	]
 	},
 	{uri: '/page', name: 'page1', extra: {}}
