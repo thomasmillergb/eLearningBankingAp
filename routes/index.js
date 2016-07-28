@@ -21,7 +21,7 @@ var quiz =
 };
 
 var resoureces = [
-	{uri: '/', name: 'index', extra: {title: 'Express'}},
+	{uri: '/', name: 'index', extra: {title: 'Knowledge Bank'}},
 	{
 		uri: '/modles', name: 'modle-screen', extra: {title: 'Express'}, sub: [
 		{uri: '/vid1', name: 'modle',  extra: {quiz: quiz.q1, video: 'www.youtube.com', videosrc: 'https://www.youtube.com/embed/CqD3hnjZBTM', content: contentResource.vid1, title: 'Easy'}},
