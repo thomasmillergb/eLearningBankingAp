@@ -12,10 +12,10 @@ var quiz =
 {
 	q1: [{type: 'radio', question: 'Money you borrow from a bank is a:', options: [{text: 'Deposit'}, {text: 'Loan', value: true}, {text: 'Guarantee'}]},
 		{type: 'radio', question: 'Money you store at the bank is:', options: [{text: 'Loan'}, {text: 'Interest'}, {text: 'Deposit', value: true}]},
-		{type: 'radio', question: 'What is a bank?', options: [{text: 'Financial Institution', value: true}, {text: 'Charity'}, {text: 'Non-for-profit Organisation'}]}]
+		{type: 'radio', question: 'What is a bank?', options: [{text: 'Financial Institution', value: true}, {text: 'Charity'}, {text: 'Non-for-profit Organisation'}]}],
 	q2: [{type: 'radio', question: 'Money you borrow from a bank is a:', options: [{text: 'Deposit'}, {text: 'Loan', value: true}, {text: 'Guarantee'}]},
 		{type: 'radio', question: 'Money you store at the bank is:', options: [{text: 'Loan'}, {text: 'Interest'}, {text: 'Deposit', value: true}]},
-		{type: 'radio', question: 'What is a bank?', options: [{text: 'Financial Institution', value: true}, {text: 'Charity'}, {text: 'Non-for-profit Organisation'}]}]
+		{type: 'radio', question: 'What is a bank?', options: [{text: 'Financial Institution', value: true}, {text: 'Charity'}, {text: 'Non-for-profit Organisation'}]}],
 	q3: [{type: 'radio', question: 'Money you borrow from a bank is a:', options: [{text: 'Deposit'}, {text: 'Loan', value: true}, {text: 'Guarantee'}]},
 		{type: 'radio', question: 'Money you store at the bank is:', options: [{text: 'Loan'}, {text: 'Interest'}, {text: 'Deposit', value: true}]},
 		{type: 'radio', question: 'What is a bank?', options: [{text: 'Financial Institution', value: true}, {text: 'Charity'}, {text: 'Non-for-profit Organisation'}]}]
